@@ -53,6 +53,9 @@ public class LandingPageStepDefinition {
 	public void added_items_product(String quantity) {
 		landingPage.incrementQuantity(Integer.parseInt(quantity));
 		landingPage.addToCart();
+		
+		System.out.println("I am the new member");
+		System.out.println("I am the new member");
 	}
 	
 	
